@@ -1,7 +1,7 @@
 .apace_container {
   width: 100%;
   height: 100%;
-  padding: 12rem 0;
+  padding: 12rem 2rem;
   background: #ffffff;
 }
 
@@ -56,8 +56,21 @@
 }
 
 .apace_card h4 {
-  padding: 3rem 0;
   color: #0f4c82;
+}
+
+.apace_card_3_img {
+  max-width: 60px !important;
+}
+
+.apace_card .apace_card_1 {
+  padding: 2.5rem 0 2rem 0;
+}
+.apace_card .apace_card_2 {
+  padding: 2rem 0 2rem 0;
+}
+.apace_card .apace_card_3 {
+  padding: 2rem 0 1.5rem 0;
 }
 
 .apace_card p {

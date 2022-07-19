@@ -5,7 +5,7 @@ const ApaceTheme = () => {
   return (
     <div className="apace_theme_container">
       <div className="theme_img_container">
-        <img src="/images/logo.png" alt="logo" />
+        {/* <img src="/images/logo.png" alt="logo" /> */}
       </div>
     </div>
   )

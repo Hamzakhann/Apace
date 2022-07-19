@@ -35,7 +35,9 @@ const ApaceFamily = () => {
               }}
             >
               <img src="/images/apace_1.png" alt="apace" />
-              <Typography variant="h4">Diversity</Typography>
+              <Typography variant="h4" className="apace_card_1">
+                Diversity
+              </Typography>
               <Typography variant="body1">
                 The apace family is all about inclusion and diversity. We hire
                 based on talent and no other reason. Excepteur sint occaecat
@@ -56,7 +58,9 @@ const ApaceFamily = () => {
               }}
             >
               <img src="/images/apace_2.png" alt="apace" />
-              <Typography variant="h4">No fine print</Typography>
+              <Typography variant="h4" className="apace_card_2">
+                No fine print
+              </Typography>
               <Typography variant="body1">
                 We are super transparent with emplyee benifits, we dont
                 overpromise unless we can overdeliver. Excepteur sint occaecat
@@ -76,8 +80,14 @@ const ApaceFamily = () => {
                 type: "spring",
               }}
             >
-              <img src="/images/apace_3.png" alt="apace" />
-              <Typography variant="h4">Innovation</Typography>
+              <img
+                src="/images/apace_3.png"
+                alt="apace"
+                className="apace_card_3_img"
+              />
+              <Typography variant="h4" className="apace_card_3">
+                Innovation
+              </Typography>
               <Typography variant="body1">
                 We never stop innovating. We reward out of the box thinking and
                 will always be up for a challange. No gamble, no future is a

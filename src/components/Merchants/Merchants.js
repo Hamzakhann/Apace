@@ -23,7 +23,7 @@ const Merchants = () => {
                 loyalty by providing the flexible, instant, and effortless
                 experience that they deserve.
               </Typography>
-              <div className="btn_container">
+              <div className="btn_container_merchants">
                 <PrimaryButton onClick={() => setFormState(!formState)}>
                   FOR MERCHANTS
                 </PrimaryButton>

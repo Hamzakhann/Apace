@@ -1,7 +1,8 @@
 .merchants_container {
   width: 100%;
-  height: 60vh;
+  height: 100%;
   background: #f7fdff 0% 0% no-repeat padding-box;
+  padding: 0 2rem;
 }
 
 .merchants_content {
