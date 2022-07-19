@@ -1,0 +1,84 @@
+.apace_container {
+  width: 100%;
+  height: 100%;
+  padding: 12rem 0;
+  background: #ffffff;
+}
+
+.btn_container_apace {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.btn_container_apace button {
+  width: 15rem;
+}
+
+.apace_container .apace_header {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  max-width: 700px;
+  text-align: center;
+}
+
+.apace_header span {
+  color: #0cacf5;
+}
+
+.apace_header h3 {
+  font-weight: 200 !important;
+}
+
+.apace_card_container {
+  width: 100%;
+  height: 100%;
+  padding-top: 7rem;
+}
+
+.apace_card {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.apace_card img {
+  width: 100%;
+  max-width: 80px;
+  margin: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.apace_card h4 {
+  padding: 3rem 0;
+  color: #0f4c82;
+}
+
+.apace_card p {
+  max-width: 400px;
+  margin: auto;
+  font-size: 20px !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .apace_header {
+    /* padding: 0 1rem; */
+  }
+  .apace_container {
+    padding: 6rem 1.5rem 3rem 1.5rem;
+  }
+  .apace_apace_card_container {
+    padding: 4rem 0rem 0 0rem;
+  }
+  .apace_card img {
+  }
+  .apace_card h4 {
+    padding: 2rem 0 1rem 0;
+  }
+}

@@ -1,0 +1,72 @@
+.mission_container {
+  width: 100%;
+  height: 100%;
+  padding: 12rem 0;
+  background: white;
+}
+
+.mission_container .mission_header {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  max-width: 700px;
+  text-align: center;
+}
+
+.mission_header span {
+  color: #0cacf5;
+}
+
+.mission_header h3 {
+  font-weight: 200 !important;
+}
+
+.mission_card_container {
+  width: 100%;
+  height: 100%;
+  padding-top: 7rem;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.card img {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.card h4 {
+  padding: 3rem 0;
+  color: #0f4c82;
+}
+
+.card p {
+  max-width: 400px;
+  margin: auto;
+  font-size: 20px !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mission_header {
+    /* padding: 0 1rem; */
+  }
+  .mission_container {
+    padding: 6rem 1.5rem 3rem 1.5rem;
+  }
+  .mission_card_container {
+    padding: 4rem 0rem 0 0rem;
+  }
+  .card img {
+    max-width: 250px;
+  }
+  .card h4 {
+    padding: 2rem 0 1rem 0;
+  }
+}

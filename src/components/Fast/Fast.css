@@ -1,0 +1,29 @@
+.fast_container {
+  width: 100%;
+  height: 80vh;
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fast_container h4 {
+  margin-bottom: 4rem;
+  color: #040404;
+  font-weight: 300 !important;
+}
+
+.fast_container p {
+  color: #040404;
+  font-weight: 300 !important;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 1025px) {
+  .fast_container {
+    height: 100%;
+    padding: 5rem 1.5rem;
+  }
+}
